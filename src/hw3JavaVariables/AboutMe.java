@@ -1,5 +1,7 @@
 package hw3JavaVariables;
 
+import org.omg.CORBA.PUBLIC_MEMBER;
+
 public class AboutMe {
 	public String firstName;
 	//Variable declared
@@ -20,7 +22,18 @@ public class AboutMe {
 		System.out.println(aboutMe.age);
 		System.out.println(aboutMe.sex);
 		System.out.println("My Name:" + aboutMe.name + "\nMy Age:" + aboutMe.age + "\nMy Sex:" + aboutMe.sex);
+		// method implemented
+		// here public is access modifier; void is type of method
+		// myInfo name of the method
+		public Void myInfo() {
+			System.out.println("\n\nHi,im from method of AboutMe class");
+			
+			//constructor declared
+			    public AboutMe() {
+			    	System.out.println("this is all about me ---\n")
+			    }
+		}
 
 	}
 
-}
+
