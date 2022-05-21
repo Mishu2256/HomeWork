@@ -12,7 +12,7 @@ public class AboutMe {
 	public char sex;
 	public boolean usCitizen;
 
-	public aboutMe() {
+	public AboutMe() {
 		System.out.println("This is all about us");
 	}
 
